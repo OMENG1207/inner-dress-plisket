@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INNER DRESS PLISKET - Premium Collection</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <!-- Custom Styles for Scrollbar & Animations -->
+    <style>
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: #f8fafc;
+        }
+        h1, h2, h3, .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .premium-shadow {
+            box-shadow: 0 10px 40px -10px rgba(30, 58, 138, 0.15);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .pulse-discount {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        premium: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            800: '#1e40af',
+                            900: '#1e3a8a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="text-slate-700">
+
+    <!-- Navbar -->
+    <nav class="w-full bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100">
+        <div class="max-w-5xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="font-bold text-xl text-premium-900 font-serif tracking-wide">INNER<span class="text-premium-500">DRESS</span></div>
+            <a href="#pesan" class="bg-premium-600 hover:bg-premium-700 text-white px-5 py-2 rounded-full text-sm font-medium transition-all shadow-lg shadow-premium-500/30">Beli Sekarang</a>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main class="max-w-4xl mx-auto bg-white min-h-screen shadow-2xl my-0 md:my-8 rounded-none md:rounded-2xl overflow-hidden">
+
+        <!-- 1. GAMBAR UTAMA -->
+        <div class="w-full bg-slate-100 relative group">
+            <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98x-lpfz8cwjkskh17.webp" alt="Inner Dress Plisket Premium" class="w-full h-auto object-cover max-h-[80vh]">
+            <div class="absolute bottom-4 right-4 bg-white/90 backdrop-blur text-xs px-3 py-1 rounded-full text-slate-600 font-medium">Foto Asli Produk</div>
+        </div>
+
+        <!-- 2. JUDUL DAN DISKRIPSI PRODUK -->
+        <div class="px-6 py-8 md:py-12 text-center fade-in-up" style="animation-delay: 0.1s;">
+            <span class="inline-block py-1 px-3 rounded-full bg-premium-50 text-premium-700 text-xs font-bold tracking-wider uppercase mb-3">Best Seller</span>
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4 leading-tight">INNER DRESS PLISKET</h1>
+            <p class="text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">
+                Tampil rapi, nyaman, dan tetap stylish ✨<br>
+                Didesain simpel tapi elegan, cocok dipadukan dengan berbagai outer atau hijab favoritmu 🤍
+            </p>
+        </div>
+
+        <!-- 3. DETAIL & KEUNGGULAN PRODUK -->
+        <div class="px-6 py-8 bg-premium-50/30 border-y border-slate-100">
+            <div class="max-w-3xl mx-auto">
+                <p class="text-center text-slate-700 mb-6">
+                    Menggunakan bahan <strong>Hyget Super Plisket Payung Premium</strong> yang lembut, ringan, tidak menerawang, dan jatuh flowy. Potongan longgar membuat dress ini nyaman dipakai seharian dan ramah untuk bumil 🤰. Bagian bawah dilengkapi detail neci rapi, memberi sentuhan manis dan terlihat lebih eksklusif.
+                </p>
+                
+                <!-- Specs Grid -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+                    <div class="bg-white p-4 rounded-xl shadow-sm text-center border border-slate-100">
+                        <div class="text-premium-600 mb-2 flex justify-center"><i data-feather="arrow-down"></i></div>
+                        <p class="font-bold text-slate-800">Panjang</p>
+                        <p class="text-sm text-slate-500">130 cm</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-sm text-center border border-slate-100">
+                        <div class="text-premium-600 mb-2 flex justify-center"><i data-feather="maximize-2"></i></div>
+                        <p class="font-bold text-slate-800">Lingkar Dada</p>
+                        <p class="text-sm text-slate-500">Max 120 cm</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-sm text-center border border-slate-100">
+                        <div class="text-premium-600 mb-2 flex justify-center"><i data-feather="layers"></i></div>
+                        <p class="font-bold text-slate-800">Bahan</p>
+                        <p class="text-sm text-slate-500">Hyget Super</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-sm text-center border border-slate-100">
+                        <div class="text-premium-600 mb-2 flex justify-center"><i data-feather="heart"></i></div>
+                        <p class="font-bold text-slate-800">Fit</p>
+                        <p class="text-sm text-slate-500">Bumil Friendly</p>
+                    </div>
+                </div>
+
+                <!-- Keunggulan List -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-left max-w-2xl mx-auto">
+                    <div class="flex items-center gap-3">
+                        <div class="bg-green-100 text-green-600 p-1 rounded-full"><i data-feather="check" class="w-4 h-4"></i></div>
+                        <span class="text-slate-700 text-sm">Bahan premium – adem & lembut</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="bg-green-100 text-green-600 p-1 rounded-full"><i data-feather="check" class="w-4 h-4"></i></div>
+                        <span class="text-slate-700 text-sm">Model plisket payung – jatuh cantik</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="bg-green-100 text-green-600 p-1 rounded-full"><i data-feather="check" class="w-4 h-4"></i></div>
+                        <span class="text-slate-700 text-sm">Bumil friendly & nyaman</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="bg-green-100 text-green-600 p-1 rounded-full"><i data-feather="check" class="w-4 h-4"></i></div>
+                        <span class="text-slate-700 text-sm">Tidak mudah kusut</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. DETAIL GAMBAR PRODUK -->
+        <div class="px-4 py-10">
+            <h2 class="text-2xl font-bold text-center text-slate-800 mb-8 font-serif">Detail Produk</h2>
+            <div class="space-y-6">
+                <img src="https://down-id.img.susercontent.com/file/id-11134207-7r992-lyyn6puu40ke9c.webp" class="w-full rounded-lg shadow-md" alt="Detail 1">
+                <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98t-lyyn6puu409154.webp" class="w-full rounded-lg shadow-md" alt="Detail 2">
+                <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98u-lyyn6puu407c06.webp" class="w-full rounded-lg shadow-md" alt="Detail 3">
+            </div>
+        </div>
+
+        <!-- 5. VARIAN WARNA -->
+        <div class="px-4 py-10 bg-slate-50">
+            <h2 class="text-2xl font-bold text-center text-slate-800 mb-2 font-serif">Pilih Warna Favoritmu</h2>
+            <p class="text-center text-slate-500 text-sm mb-8">Tersedia 20+ warna eksklusif</p>
+            
+            <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                <!-- Variant 1 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98p-lnl1pb7tljyz6e@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="HITAM">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">HITAM</p>
+                </div>
+                <!-- Variant 2 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7r990-lnl1pb7tmyjf4c@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="LEMON TUA">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">LEMON TUA</p>
+                </div>
+                <!-- Variant 3 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98s-lnl1c28nmvyued@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="DENIM">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">DENIM</p>
+                </div>
+                <!-- Variant 4 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98s-lnl1c28nmw0737@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="OLIVE">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">OLIVE</p>
+                </div>
+                <!-- Variant 5 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98v-lnl1c28nmvss81@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="MILO">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">MILO</p>
+                </div>
+                <!-- Variant 6 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7rasg-m0x16q77mgqeb7@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="MOCCA MUDA">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">MOCCA MUDA</p>
+                </div>
+                <!-- Variant 7 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98s-lnl1pq1xxc3t92@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="ABU TUA">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">ABU TUA</p>
+                </div>
+                <!-- Variant 8 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134201-23030-bq2odp7me5nv9d@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="CREAM">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">CREAM</p>
+                </div>
+                <!-- Variant 9 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134201-23030-z52iofine5nv37@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="HIJAU BOTOL">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">HIJAU BOTOL</p>
+                </div>
+                <!-- Variant 10 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98z-lnl1q3xnm2yu4b@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="PUTIH">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">PUTIH</p>
+                </div>
+                <!-- Variant 11 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98x-lnl1q3xnnhjac2@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="MAROON">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">MAROON</p>
+                </div>
+                <!-- Variant 12 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98z-lpaovxoqhi7nd5@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="CAPPUCINO">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">CAPPUCINO</p>
+                </div>
+                <!-- Variant 13 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98p-lpaovxoqhi8d38@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="VIOLET">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">VIOLET</p>
+                </div>
+                <!-- Variant 14 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/c785505ab6916e369f3366e183a946e6@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="HIJAU MINT">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">HIJAU MINT</p>
+                </div>
+                <!-- Variant 15 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7rask-m0wzt7fghrlld4@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="DUSTY BLUE">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">DUSTY BLUE</p>
+                </div>
+                <!-- Variant 16 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7qul1-lj3tjj472yjb15@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="DUSTY PINK">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">DUSTY PINK</p>
+                </div>
+                <!-- Variant 17 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98p-lwna3uvmm1e228@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="UNGU TUA">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">UNGU TUA</p>
+                </div>
+                <!-- Variant 18 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134201-7qul3-lfhr6qj4qyol3a@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="BATA TUA">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">BATA TUA</p>
+                </div>
+                <!-- Variant 19 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134201-23030-nbw83ctme5nv70@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="MOCCA TUA">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">MOCCA TUA</p>
+                </div>
+                <!-- Variant 20 -->
+                <div class="bg-white rounded-lg p-2 shadow-sm hover:shadow-md transition-shadow text-center cursor-pointer group">
+                    <div class="aspect-[3/4] w-full overflow-hidden rounded bg-slate-100 mb-2">
+                        <img src="https://down-id.img.susercontent.com/file/id-11134207-7rask-m0x16q77nvauea@resize_w450_nl.webp" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" alt="COKELAT TUA">
+                    </div>
+                    <p class="text-xs font-semibold text-slate-700">COKELAT TUA</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 6. TESTIMONI PELANGGAN -->
+        <div class="px-6 py-12">
+            <h2 class="text-2xl font-bold text-center text-slate-800 mb-8 font-serif">Apa Kata Pelanggan?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Testimoni 1 -->
+                <div class="bg-white border border-slate-100 p-6 rounded-xl shadow-lg">
+                    <div class="flex text-yellow-400 mb-2">
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                    </div>
+                    <p class="text-slate-600 italic mb-4">"Aku pesan warna Dusty Pink, suka bangetttt. Bahannya adem, nggak panas. Plisketnya jatuh jadi badan terlihat langsing. Wajib punyailah!"</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-premium-100 rounded-full flex items-center justify-center text-premium-700 font-bold">A</div>
+                        <div>
+                            <p class="font-bold text-sm text-slate-800">Andini, Jakarta</p>
+                            <p class="text-xs text-slate-400">Pembelian: Dusty Pink</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimoni 2 -->
+                <div class="bg-white border border-slate-100 p-6 rounded-xl shadow-lg">
+                    <div class="flex text-yellow-400 mb-2">
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                    </div>
+                    <p class="text-slate-600 italic mb-4">"ukuran muat sampai selesai hamil. buat ibu menyusui juga sangat praktis. packingnya rapi, terima kasih seller!"</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-premium-100 rounded-full flex items-center justify-center text-premium-700 font-bold">S</div>
+                        <div>
+                            <p class="font-bold text-sm text-slate-800">Siti Nur, Bandung</p>
+                            <p class="text-xs text-slate-400">Pembelian: Olive</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Testimoni 3 -->
+                <div class="bg-white border border-slate-100 p-6 rounded-xl shadow-lg">
+                    <div class="flex text-yellow-400 mb-2">
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                    </div>
+                    <p class="text-slate-600 italic mb-4">"Highlight bangetttttt ini dress. Cocok buat kondangan sama kerjaan formal. Warnanya bagus nggak pudar setelah dicuci."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-premium-100 rounded-full flex items-center justify-center text-premium-700 font-bold">R</div>
+                        <div>
+                            <p class="font-bold text-sm text-slate-800">Ratna, Surabaya</p>
+                            <p class="text-xs text-slate-400">Pembelian: Hitam</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimoni 4 -->
+                <div class="bg-white border border-slate-100 p-6 rounded-xl shadow-lg">
+                    <div class="flex text-yellow-400 mb-2">
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                        <i data-feather="star" class="fill-current w-4 h-4"></i>
+                    </div>
+                    <p class="text-slate-600 italic mb-4">"Pengiriman cepet banget, hari ini beli besok sampai. Kualitas premium harga terjangkau. Auto fav!"</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-premium-100 rounded-full flex items-center justify-center text-premium-700 font-bold">D</div>
+                        <div>
+                            <p class="font-bold text-sm text-slate-800">Dewi, Yogyakarta</p>
+                            <p class="text-xs text-slate-400">Pembelian: Mocca Muda</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 7. WAKTU PROMO BERAKHIR -->
+        <div class="bg-gradient-to-r from-premium-900 to-premium-700 py-8 px-4 text-center text-white relative overflow-hidden">
+            <!-- Decorative circle -->
+            <div class="absolute -top-10 -left-10 w-40 h-40 bg-white opacity-5 rounded-full"></div>
+            <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-white opacity-5 rounded-full"></div>
+            
+            <h3 class="text-2xl md:text-3xl font-bold mb-2 font-serif">PROMO SPESIAL HARI INI</h3>
+            <p class="text-premium-100 mb-6 text-sm">Dapatkan Diskon Spesial, Harga Akan Kembali Normal Setelah :</p>
+            
+            <!-- Countdown Timer -->
+            <div class="flex justify-center gap-3 md:gap-6 mb-6">
+                <div class="bg-white/10 backdrop-blur rounded-lg p-3 min-w-[70px] border border-white/20">
+                    <span id="hours" class="block text-2xl md:text-4xl font-bold font-mono">00</span>
+                    <span class="text-xs uppercase tracking-wider">Jam</span>
+                </div>
+                <div class="text-2xl md:text-4xl font-bold self-center">:</div>
+                <div class="bg-white/10 backdrop-blur rounded-lg p-3 min-w-[70px] border border-white/20">
+                    <span id="minutes" class="block text-2xl md:text-4xl font-bold font-mono">00</span>
+                    <span class="text-xs uppercase tracking-wider">Menit</span>
+                </div>
+                <div class="text-2xl md:text-4xl font-bold self-center">:</div>
+                <div class="bg-white/10 backdrop-blur rounded-lg p-3 min-w-[70px] border border-white/20">
+                    <span id="seconds" class="block text-2xl md:text-4xl font-bold font-mono">00</span>
+                    <span class="text-xs uppercase tracking-wider">Detik</span>
+                </div>
+            </div>
+            
+            <div class="bg-white/20 inline-block px-4 py-2 rounded-full text-sm font-medium border border-white/30">
+                Stok Terbatas! Segera pesan sebelum kehabisan.
+            </div>
+        </div>
+
+        <!-- 8. NOTE & 9. HARGA / 10 & 11. FORM PEMESANAN -->
+        <div id="pesan" class="bg-slate-50 py-10 px-4 relative">
+            
+            <!-- Note Section -->
+            <div class="max-w-3xl mx-auto mb-8 grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-slate-600 text-center">
+                <div class="flex flex-col items-center gap-2 p-3 bg-white rounded-lg shadow-sm">
+                    <i data-feather="truck" class="text-premium-600"></i>
+                    <p>Pengiriman 2 - 4 Hari Setelah Pemesanan</p>
+                </div>
+                <div class="flex flex-col items-center gap-2 p-3 bg-white rounded-lg shadow-sm">
+                    <i data-feather="map-pin" class="text-premium-600"></i>
+                    <p>Mohon Isi Alamat Dengan Lengkap</p>
+                </div>
+                <div class="flex flex-col items-center gap-2 p-3 bg-white rounded-lg shadow-sm">
+                    <i data-feather="shield" class="text-premium-600"></i>
+                    <p>100% Product Original</p>
+                </div>
+            </div>
+
+            <!-- Purchase Layout -->
+            <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-200">
+                <!-- Top Image Area with Discount Hints -->
+                <div class="relative bg-slate-100">
+                    <img src="https://down-id.img.susercontent.com/file/id-11134207-7r98s-lnl1c28nmw0737.webp" class="w-full h-64 md:h-80 object-cover object-top" alt="Checkout Preview">
+                    
+                    <!-- Price Tag Overlay -->
+                    <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent p-6 pt-20 flex justify-between items-end text-white">
+                        <div>
+                            <p class="text-sm text-gray-300 line-through">HARGA NORMAL: Rp 255.000</p>
+                            <div class="flex items-baseline gap-2">
+                                <h3 class="text-3xl font-bold text-yellow-400">Rp 175.000</h3>
+                                <span class="bg-red-600 text-xs px-2 py-1 rounded font-bold pulse-discount">- 31%</span>
+                            </div>
+                            <p class="text-sm mt-1 text-green-300 font-medium">✔ Anda Hemat Rp 80.000</p>
+                        </div>
+                        <div class="text-right hidden md:block">
+                            <div class="text-5xl">✨</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Embed Form Area -->
+                <div class="p-6 md:p-10">
+                    <h4 class="text-xl font-bold text-center text-slate-800 mb-6 border-b pb-4">FORM PEMESANAN RESMI</h4>
+                    
+                    <!-- OrderOnline Embed Code -->
+                    <div class="ooef">
+                        <form class="orderonline-embed-form" data-username="vita" data-product-slug="inner-dress-plisket" data-product-id="6969090088cd7d1d090a195a" id="oo-embed-form-inner-dress-plisket-1765" data-origin="orderonline">
+                        <div class="ooef-loader"><style>.ooef-loader{visibility: hidden;opacity: 0;position: absolute;left: 0;right: 0;top: 0;bottom: 0;display: flex;justify-content: center;align-items: center;flex-direction: column;animation: ooLoadingIn 10s ease;-webkit-animation: ooLoadingIn 10s ease;animation-fill-mode: forwards;overflow: hidden}@keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}@-webkit-keyframes ooLoadingIn{0%{visibility: hidden;opacity: 0}20%{visibility: visible;opacity: 0}100%{visibility: visible;opacity: 1}}.ooef-loader>div,.ooef-loader>div:after{border-radius: 50%;width: 2.5rem;height: 2.5rem}.ooef-loader>div{font-size: 10px;position: relative;text-indent: -9999em;border: .25rem solid #f5f5f5;border-left: .25rem solid #55c4cf;-webkit-transform: translateZ(0);-ms-transform: translateZ(0);transform: translateZ(0);-webkit-animation: ooLoading 1.1s infinite linear;animation: ooLoading 1.1s infinite linear}.ooef-loader.error>div{border-left: .25rem solid #ff4500;animation-duration: 5s}@-webkit-keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}@keyframes ooLoading{0%{-webkit-transform: rotate(0);transform: rotate(0)}100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}}</style><div aria-live="polite" role="status"><div>Loading...</div></div></div>
+                        </form>
+                    </div>
+                    <script>
+                        if (typeof xLogError != 'function') {
+                            var xLogError = function (error) {
+                                var req = new XMLHttpRequest();
+                                var payload = JSON.stringify({ url: document.location.href, line: error.line, stack: error.stack });
+                                var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+                                req.open('POST', 'https://api.orderonline.id/log', true);
+                                req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                                req.send(params);
+                            };
+                        }
+                        try {
+                            if (typeof xEmbedScript != 'function') {
+                                var xEmbedScript = function () {
+                                    !function(w, d, e, v, id, t, s) {
+                                        if (d.getElementById(id)) return;
+                                        t = d.createElement(e);
+                                        t.async = !0;
+                                        t.src = v;
+                                        t.id = id;
+                                        s = d.getElementsByTagName(e)[0];
+                                        s.parentNode.insertBefore(t, s);
+                                    }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+                                };
+                            }
+                            if (typeof xEmbedInit != 'function') {
+                                var xEmbedInit = function (w, n) {
+                                    if (w.ooe) return;
+                                    n = w.ooe = function() {
+                                        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                                    };
+                                    if (!w._ooe) w._ooe = n;
+                                    n.push = n;
+                                    n.loaded = !0;
+                                    n.version = '8.0.4';
+                                    n.queue = [];
+                                };
+                            }
+                            xEmbedInit(window);
+                            ooe('setup', 'redirect', 'https://vita.orderonline.id');
+                            ooe('init', '5f1a8627a9bf8058b0424f32', '6969090088cd7d1d090a195a', '6969090088cd7d1d090a195b', 'oo-embed-form-inner-dress-plisket-1765', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":false,"triggerGtm":false});
+                            if (!window.jQuery) {
+                                !function(w, d, e, v, id, t, s) {
+                                    if (d.getElementById(id)) return;
+                                    t = d.createElement(e);
+                                    t.async = !0;
+                                    t.src = v;
+                                    t.id = id;
+                                    t.addEventListener('load', xEmbedScript);
+                                    s = d.getElementsByTagName(e)[0];
+                                    s.parentNode.insertBefore(t, s);
+                                }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+                            } else {
+                                xEmbedScript();
+                            }
+                        } catch (e) {
+                            xLogError(e);
+                            throw e;
+                        }
+                    </script>
+                    <!-- End OrderOnline Embed Code -->
+
+                </div>
+            </div>
+            
+            <p class="text-center text-xs text-slate-400 mt-8">© 2023 Inner Dress Plisket Official Store. All rights reserved.</p>
+        </div>
+
+    </main>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
